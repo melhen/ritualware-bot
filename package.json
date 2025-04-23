@@ -1,0 +1,28 @@
+{
+  "name": "ritualware-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for managing rituals using Firebase",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "firebase-admin": "^11.10.1",
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.6",
+    "prettier": "^3.5.3"
+  },
+  "author": "melhen",
+  "license": "MIT"
+}
