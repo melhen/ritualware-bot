@@ -2,3 +2,5 @@ node_modules/
 .env
 .secrets/"secrets/ritualware-firebase.json" 
 secrets/ritualware-firebase.json 
+# .gitignore
+secrets/
